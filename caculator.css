@@ -1,0 +1,80 @@
+
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	margin:0px auto;
+	height:auto;
+	width:760px;
+	border:1px solid #006633;
+}
+.header{
+	height:100px;
+	width:760px;
+	background-image:url(headPic.gif);
+	margin:0px 0px 3px 0px;
+}
+.nav{
+	height:60px;
+	width:760px;
+	font-size:14px;
+	
+}
+.nav li{
+	float:left;
+	list-style-type:none;
+}
+.nav li a{
+	color:#000000;
+	text-decoration:none;
+	padding-top:4px;
+	display:block;
+	width:177.5px;
+	height:55px;
+	text-align:center;
+	background-color:#009966;
+	font-size:16px;
+	line-height:3em;
+	margin-left:10px;
+	margin-bottom:5px;
+}
+.nav li a:hover{
+	background-color:#006633;
+	color:#FFFFFF;
+}
+.content{
+	height:auto;
+	width:740px;
+	line-height:1.5em;
+	padding:10px;
+}
+#ret{
+	font-family:Arial,Helvetica,sans-serif;
+	height:80px;
+	width:700px;
+	text-align:right;
+	background-color:#009966;
+	margin:10px;
+	padding:20px;
+	font-size:32px;
+	line-height:4em;
+}
+.content p{
+	text-intent:2em;
+}
+.content h5{
+	font-size:16px;
+	margin:10px;
+}
+.footer{
+	height:50px;
+	width:740px;
+	line-height:2em;
+	text-align:center;
+	background-color:#009966;
+	padding:10px;
+}
